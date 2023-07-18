@@ -1,4 +1,6 @@
+![yt2_thumbnail](https://github.com/iamselimyildiz/Yolov7_POSE_ESTIMATION/assets/94224409/79a079c8-d244-4a93-9c20-d759f284e846)
 # Yolov7_POSE_ESTIMATION
+
 Bu repo da kendi projeleriniz için Yolov7 pose estimation kullanmayı öğreneceksin. Kolay gelsin !
 
 1- Öncelikle Visual studio'nun bilgisayararınızda kurulu olması gerekiyor. Visual studio/installer/workload(işyükü) kısmından "Desktop devolopment with C++" eklentisini seçin ve kurmaya başlayın.(Linux kullanıyorsanız bu aşamayı atlayın)
@@ -85,7 +87,8 @@ Ardından 74. satırdaki kod parçacığı şöyle olacak şekilde değiştirili
 ![tennis](https://github.com/iamselimyildiz/Yolov7_POSE_ESTIMATION/assets/94224409/01ac4f01-3ba9-4e0f-be02-d3f073f1f3aa)  
 
 
-18-Artık bu kodu anaconda prompt da çalıştırarak istenilen video ve fotoğraf medyasına pose estimation uygulayabiliriz. 
+18-Artık bu kodu anaconda prompt da çalıştırarak istenilen video ve fotoğraf medyasına pose estimation uygulayabiliriz.  
+İşlenen foto/videolar yolov7 pose est/yolov7_pose/runs klasörü içinde depolanacak.
 `python detect.py --weights yolov7-w6-pose.pt --kpt-label --hide-labels --hide-conf --source tennis.jpg --nobbox`  
 
 
