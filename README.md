@@ -103,7 +103,7 @@ Ardından 74. satırdaki kod parçacığı şöyle olacak şekilde değiştirili
 `--kpt-label= keypoint label eklem noktaları`  
 `--hide-labels=etiketleri saklar`    
 `--hide-conf=doğruluk oranını saklar`   
-`--source tennis.jpg`  
+`--source tennis.jpg= kaynak medya`  
 `--nobbox= nesneyi kutucuk içine almaz`    
 
 
